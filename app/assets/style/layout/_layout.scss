@@ -1,0 +1,33 @@
+.footer-logo {
+    background: url(../images/logo_white.svg);
+    width: 235px;
+    height:70px;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-gnav {    
+    position: absolute;
+    bottom: 0;
+}
+.side-nav-lg {
+    display: none;
+    @include media-breakpoint-up(lg) {
+        display: block;
+    }
+}
+.side-nav-md {
+    display: block;
+    @include media-breakpoint-up(lg) {
+        display: none;
+    }
+}
+.offcanvas-top {
+    height:60vh;
+    @include media-breakpoint-up(sm) {
+        height:40vh;
+    }
+}
+.offcanvas-end {
+    width: 300px;
+}

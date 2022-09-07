@@ -1,0 +1,431 @@
+---
+title: 出租
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<header class="position-relative bg-light py-6">    
+    <div class="container" >
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-4">
+                <h1>
+                  <a  class="logo-main"                      
+                      data-aos="fade-zoom-in"
+                      data-aos-easing="ease-in-back"                      
+                      data-aos-offset="0" href="./index.html">HO DAIGI
+                  </a>
+                </h1>
+            </div>
+            <div class="col-lg-8 ">
+              <ul class="row d-flex justify-content-between " >
+                <li class="col text-center translate-y10 ">
+                  <div data-aos="zoom-in-up"data-aos-delay="200" data-aos-duration="400" >
+                    <a class="text-hover-primary" href="./facility.html">
+                      <img src="./assets/images/icon1.png" alt="Facilities/Prices">
+                      <p class="fw-bold">設施/價格</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="col text-center stay-translate-y10 ">
+                  <div data-aos="zoom-in-up"data-aos-delay="350" data-aos-duration="400">
+                    <a class="text-primary" href="./rental.html">
+                      <img src="./assets/images/icon2.png" alt="rental">
+                      <p class="fw-bold">出租</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="col text-center translate-y10 ">
+                  <div data-aos="zoom-in-up"data-aos-delay="500" data-aos-duration="400">
+                    <a class="text-hover-primary" href="./experience.html">
+                      <img src="./assets/images/icon3.png" alt="Experience-corner">
+                      <p class="fw-bold">體驗</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="col text-center translate-y10 ">
+                  <div data-aos="zoom-in-up"data-aos-delay="650" data-aos-duration="400">
+                    <a class="text-hover-primary" href="./sports.html">
+                      <img src="./assets/images/icon4.png" alt="outdoor-sports">
+                      <p class="fw-bold">戶外運動</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="col text-center translate-y10 ">
+                 <div data-aos="zoom-in-up"data-aos-delay="800" data-aos-duration="400">
+                    <a class="text-hover-primary" href="./tourism.html">
+                      <img src="./assets/images/icon5.png" alt="Surrounding-sightseeing">
+                      <p class="fw-bold">周邊觀光</p>
+                    </a>
+                 </div>
+                </li>
+                <li class="col text-center translate-y10 ">
+                  <div data-aos="zoom-in-up"data-aos-delay="950" data-aos-duration="400">
+                    <a class="text-hover-primary" href="./access.html">
+                      <img src="./assets/images/icon6.png" alt="access">
+                      <p class="fw-bold">交通</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="col text-center translate-y10 ">
+                  <div data-aos="zoom-in-up"data-aos-delay="1100" data-aos-duration="400">
+                    <a class="text-hover-primary" href="./contact.html">
+                      <img src="./assets/images/icon7.png" alt="inquiry">
+                      <p class="fw-bold">連絡我們</p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </div>
+    <div class="top-trangle transform-180 b60">
+        <div class="bottom-trangle-1 bg-light"></div>
+        <div class="bottom-trangle-2 bg-light"></div>
+        <div class="bottom-trangle-3 bg-light"></div>
+        <div class="bottom-trangle-4 bg-light"></div>
+    </div>
+</header>
+
+<main>
+  <section class="my-16">
+      <div class="container">
+          <div class="bg-rental border-radius-10 position-relative mb-12" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500"data-aos-once="true">
+              <h2 class="fw-bold fs-7 text-white p-4 ps-8 z-1 ">出租物品信息</h2>
+              <div class="rental-bg-h2"></div>
+          </div>
+          <ul class="row row-cols-xl-3 row-cols-lg-2 row-cols-1">
+              <li class="col" data-aos="fade-up"data-aos-delay="800" data-aos-duration="1100"data-aos-once="true">
+                  <h3 class="fs-8 fw-bold mb-4">野營裝備</h3>
+                  <table class="table table-striped table-borderless table-sm">                        
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="w-75">被套</th>
+                          <td>1,500日元</td>                        
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">棉被</th>
+                          <td>850 日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">床墊</th>
+                          <td>850 日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">出租帳篷（4人）<br>（雪峰/科爾曼）</th>
+                          <td>1 晚 <br> 3,000 日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">出租篷布<br>（雪峰製造）</th>
+                          <td>1 晚 <br> 2,000 日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">毯子</th>
+                          <td>500日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">睡袋</th>
+                          <td>1,000日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">桌子</th>
+                          <td>1,000日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">LED燈籠</th>
+                          <td>700日元</td>
+                        </tr>
+
+                        <tr>
+                          <th scope="row"  class="w-75">椅子</th>
+                          <td>500日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">篝火台</th>
+                          <td>1,000日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">單獨的吊床</th>
+                          <td>1,550日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">內墊<br>（雪峰製造）</th>
+                          <td>1,700日元</td>
+                        </tr>
+                      </tbody>
+                  </table>
+              </li>
+              <li class="col" data-aos="fade-up"data-aos-delay="1000" data-aos-duration="1100"data-aos-once="true">
+                  <h3 class="fs-8 fw-bold mb-4">燒烤用品</h3>
+                  <table class="table table-striped table-borderless table-sm">                        
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="w-75">燒烤爐</th>
+                          <td>1,500日元</td>                        
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">盒式爐（不包括燃氣）</th>
+                          <td>600日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">大鍋</th>
+                          <td>400日元</td>
+                        </tr>                          
+                        <tr>
+                          <th scope="row"  class="w-75">鐵板</th>
+                          <td>200日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">平底鍋</th>
+                          <td>200日元</td>
+                        </tr>                          
+                        <tr>
+                          <th scope="row"  class="w-75">碗</th>
+                          <td>100日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">濾器</th>
+                          <td>100日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">砧板台</th>
+                          <td>100日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">菜刀</th>
+                          <td>100日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">飯勺</th>
+                          <td>100日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">網路</th>
+                          <td>100日元</td>
+                        </tr>                          
+                        <tr>
+                          <th scope="row"  class="w-75">砍刀</th>
+                          <td>300日元</td>
+                        </tr>                          
+                      </tbody>
+                  </table>
+              </li>
+              <li class="col" data-aos="fade-up"data-aos-delay="1200" data-aos-duration="1100"data-aos-once="true">
+                  <h3 class="fs-8 fw-bold mb-4">其他出租</h3>
+                  <table class="table table-striped table-borderless table-sm">                        
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="w-75">大型出租自行車</th>
+                          <td>1小時 <br> 600日元</td>                        
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">出租自行車小</th>
+                          <td>1小時<br>400日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">網球拍（帶球）</th>
+                          <td>1小時<br>500日元</td>
+                        </tr>                          
+                        <tr>
+                          <th scope="row"  class="w-75">羽毛球</th>
+                          <td>300日元<br>小時</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">出租大廳</th>
+                          <td>1 天<br> 9,000 日元</td>
+                        </tr>                               
+                      </tbody>
+                  </table>
+              </li>
+          </ul>
+      </div>
+  </section>
+
+  <section class="my-16">
+      <div class="container">
+          <div class="bg-rental border-radius-10 position-relative mb-12" data-aos="fade-up" data-aos-duration="1100"data-aos-once="true">
+              <h2 class="fw-bold fs-7 text-white p-4 ps-8 z-1 ">銷售產品信息</h2>
+              <div class="rental-bg-h2"></div>
+          </div>
+          <ul class="row row-cols-xl-3 row-cols-lg-2 row-cols-1">
+              <li class="col" data-aos="fade-up"data-aos-delay="200" data-aos-duration="1100"data-aos-once="true">
+                  <h3 class="fs-8 fw-bold mb-4">日用品</h3>
+                  <table class="table table-striped table-borderless table-sm">                        
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="w-75">牙刷</th>
+                          <td>100日元</td>                        
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">板刷</th>
+                          <td>100日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">海綿</th>
+                          <td>100日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">毛巾</th>
+                          <td>250日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">洗碗精</th>
+                          <td>180日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">蚊香</th>
+                          <td>100日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">紙尿褲</th>
+                          <td>100日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">垃圾袋</th>
+                          <td>100日元</td>
+                        </tr>                          
+                      </tbody>
+                  </table>
+              </li>
+              <li class="col" data-aos="fade-up"data-aos-delay="400" data-aos-duration="1100"data-aos-once="true">
+                  <h3 class="fs-8 fw-bold mb-4">燒烤用品</h3>
+                  <table class="table table-striped table-borderless table-sm">                        
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="w-75">木炭</th>
+                          <td>500日元</td>                        
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">柴</th>
+                          <td>1,000日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">易點火木炭</th>
+                          <td>250日元</td>
+                        </tr>                          
+                        <tr>
+                          <th scope="row"  class="w-75">氣瓶</th>
+                          <td>650日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">米飯（1份）</th>
+                          <td>150日元</td>
+                        </tr>                          
+                        <tr>
+                          <th scope="row"  class="w-75">鹽</th>
+                          <td>200日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">醬油</th>
+                          <td>200日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">沙拉油</th>
+                          <td>200日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">烤肉醬</th>
+                          <td>320日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">咖哩粉</th>
+                          <td>220日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">紙碟子</th>
+                          <td>200日元</td>
+                        </tr>                          
+                        <tr>
+                          <th scope="row"  class="w-75">紙杯</th>
+                          <td>150日元</td>
+                        </tr>   
+                        <tr>
+                          <th scope="row"  class="w-75">冰</th>
+                          <td>400日元
+                          </td>
+                        </tr>                       
+                      </tbody>
+                  </table>
+              </li>
+              <li class="col" data-aos="fade-up"data-aos-delay="600" data-aos-duration="1100"data-aos-once="true">
+                  <h3 class="fs-8 fw-bold mb-4">其他銷售</h3>
+                  <table class="table table-striped table-borderless table-sm">                        
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="w-75">火炬</th>
+                          <td>1個<br>500日元</td>                        
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">白汽油</th>
+                          <td>1,700日元</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"  class="w-75">其他成分</th>
+                          <td>面議/預訂</td>
+                        </tr>                                          
+                      </tbody>
+                  </table>
+              </li>
+          </ul>
+      </div>
+  </section>
+
+  <section class="position-relative pb-16">
+      <div class="bottom-trangle">
+          <div class="bottom-trangle-1 bg-white"></div>
+          <div class="bottom-trangle-2 bg-white"></div>
+          <div class="bottom-trangle-3 bg-white"></div>
+          <div class="bottom-trangle-4 bg-white"></div>
+      </div>
+      <div class="container" data-aos="fade-right"data-aos-delay="300" data-aos-duration="1300"data-aos-once="true">
+          <h2 class="fs-5 fw-bold py-6 mb-0 mb-md-6 mb-lg-12">管理中心白樺之家</h2>
+          <div class="row">
+              <div class="col-lg-4 mb-6 mb-lg-0">
+                  <img class="img-fluid border-radius-10" src="./assets/images/shirakaba-house.jpg" alt="shirakaba-house">
+              </div>
+              <ul class="col-lg-7">
+                  <li class="d-flex flex-row border-bottom  py-4">
+                      <div class="row w-100">
+                          <div class="col-lg-2">
+                              <p class="fw-bold mb-4 mb-lg-0">營業時間</p>
+                          </div>
+                          <div class="col-lg-10">
+                              <p> 2022 年 5 月 1 日星期日至 2022 年 10 月 23 日星期日 <br> *可能因天氣而有所變化</p>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="d-flex flex-row border-bottom  py-4">
+                      <div class="row w-100">
+                          <div class="col-lg-2">
+                              <p class="fw-bold mb-4 mb-lg-0">接待內容</p>
+                          </div>
+                          <div class="col-lg-10">
+                              <p> 進入露營地、住宿接待、設備租賃、燒烤預訂、露營設備租賃、紀念品、飲料、冰淇淋銷售等。我們還提供有關戶外運動和周邊地區觀光的訊息。</p>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="d-flex flex-row border-bottom  py-4">
+                      <div class="row w-100">
+                          <div class="col-lg-2">
+                              <p class="fw-bold mb-4 mb-lg-0">營業時間</p>
+                          </div>
+                          <div class="col-lg-10">
+                              <p>使用接待時間8:00-17:00（根據季節變化） <br>預約受理時間8:00-17:00<br> 營業時間8:00-17:00（根據季節變化）</p>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="d-flex flex-row border-bottom  py-4">
+                      <div class="row w-100">
+                          <div class="col-lg-2">
+                              <p class="fw-bold mb-4 mb-lg-0">電話號碼</p>
+                          </div>
+                          <div class="col-lg-10">
+                              <p>0278-75-2206</p>
+                          </div>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </section>
+</main>

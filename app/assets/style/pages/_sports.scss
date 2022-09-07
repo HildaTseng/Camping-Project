@@ -1,0 +1,47 @@
+.ill-ship {
+    display: none;
+    @include media-breakpoint-up(md) {
+        background: url(../images/ill_ship.png);
+        width: 125px;;
+        height:75px;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        bottom: -90%;
+        right: 20%;
+        z-index: 1;
+        display: block;
+    }
+   
+}
+.ill-lake {
+    display: none;
+    @include media-breakpoint-up(md) {
+        background: url(../images/ill_lake.png);
+        width: 300px;
+        height:55px;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        bottom: -100%;
+        right: 10%;
+        display: block;
+    }
+   
+}
+
+.sport-ill-mountain {
+    display: none;
+    @include media-breakpoint-up(md) {
+        background: url(../images/ill_mountain.png);
+        width: 160px;
+        height:80px;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        bottom: -80%;
+        right: 8%;
+        display: block;
+    }
+    
+}

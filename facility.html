@@ -1,10 +1,113 @@
----
-title: 設施/價格
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>設施/價格</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <!-- icon  -->
+    <script src="https://kit.fontawesome.com/9e27547df9.js" crossorigin="anonymous"></script>
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <!-- offcanvas-right  -->
+    <div class="position-relative side-nav-lg">      
+      <button class="btn btn-warning header-fix" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars scale2"></i></button>   
+      <div class="offcanvas offcanvas-end bg-primary" data-bs-scroll="true" data-bs-backdrop="false"  tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header d-flex flex-row justify-content-end position-relative" >
+          <button type="button" class="btn-close text-reset btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark i-close"></i></button>
+        </div>
+        <div class="offcanvas-body d-flex align-items-center ps-10 mb-10">
+          <nav class="g-2">
+            <a class="d-flex text-white-hover-warning my-6" href="./facility.html" >
+              <i class="fa-solid fa-circle-chevron-right me-6 fs-8"></i>
+              <p class="fs-8">設施/價格</p>
+            </a>
+            <a class="d-flex text-white-hover-warning my-6" href="./rental.html">
+              <i class="fa-solid fa-circle-chevron-right me-6 fs-8"></i>
+              <p class="fs-8">出租</p>
+            </a>
+            <a class="d-flex text-white-hover-warning my-6" href="./experience.html">
+              <i class="fa-solid fa-circle-chevron-right me-6 fs-8"></i>
+              <p class="fs-8">體驗</p>
+            </a>
+            <a class="d-flex text-white-hover-warning my-6" href="./sports.html">
+              <i class="fa-solid fa-circle-chevron-right me-6 fs-8"></i>
+              <p class="fs-8">戶外運動</p>
+            </a>
+            <a class="d-flex text-white-hover-warning my-6" href="./tourism.html">
+              <i class="fa-solid fa-circle-chevron-right me-6 fs-8"></i>
+              <p class="fs-8">周邊觀光</p>
+            </a>
+            <a class="d-flex text-white-hover-warning my-6" href="./access.html">
+              <i class="fa-solid fa-circle-chevron-right me-6 fs-8"></i>
+              <p class="fs-8">交通</p>
+            </a>
+            <a class="d-flex text-white-hover-warning my-6" href="./contact.html">
+              <i class="fa-solid fa-circle-chevron-right me-6 fs-8"></i>
+              <p class="fs-8">連絡我們</p>
+            </a>
+          </nav>
+        </div>
+        <a class="z-1 d-flex justify-content-center mb-10" href="./index.html"><img class="img-fluid w-75" src="./assets/images/logo_white.svg" alt="logo"></a>
+
+        <img class="img-fluid bg-gnav" src="./assets/images/bg_gnav.svg" alt="bg-gnav">
+
+      </div>      
+    </div>
+    <!-- offcanvas-top -->
+    <div class="position-relative side-nav-md">      
+      <button class="btn btn-warning header-fix " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fa-solid fa-bars fs-4"></i></button>
+      <div class="offcanvas offcanvas-top bg-primary  side-nav-md" data-bs-scroll="true" data-bs-backdrop="false"  tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header d-flex flex-row justify-content-end position-relative" >
+          <button type="button" class="btn-close text-reset btn-close-white " data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark i-close"></i></button>
+        </div>
+        <div class="offcanvas-body d-flex ps-10">
+          <nav class="g-2">
+            <a class="d-flex text-white-hover-warning my-4" href="./facility.html">
+              <i class="fa-solid fa-circle-chevron-right me-6 fs-9"></i>
+              <p class="fs-9">設施/價格</p>
+            </a>
+            <a class="d-flex text-white-hover-warning my-4" href="./rental.html">
+              <i class="fa-solid fa-circle-chevron-right me-6 fs-9"></i>
+              <p class="fs-9">出租</p>
+            </a>
+            <a class="d-flex text-white-hover-warning my-4" href="./experience.html">
+              <i class="fa-solid fa-circle-chevron-right me-6 fs-9"></i>
+              <p class="fs-9">體驗</p>
+            </a>
+            <a class="d-flex text-white-hover-warning my-4" href="./sports.html">
+              <i class="fa-solid fa-circle-chevron-right me-6 fs-9"></i>
+              <p class="fs-9">戶外運動</p>
+            </a>
+            <a class="d-flex text-white-hover-warning my-4" href="./tourism.html">
+              <i class="fa-solid fa-circle-chevron-right me-6 fs-9"></i>
+              <p class="fs-9">周邊觀光</p>
+            </a>
+            <a class="d-flex text-white-hover-warning my-4" href="./access.html">
+              <i class="fa-solid fa-circle-chevron-right me-6 fs-9"></i>
+              <p class="fs-9">交通</p>
+            </a>
+            <a class="d-flex text-white-hover-warning my-4" href="./contact.html">
+              <i class="fa-solid fa-circle-chevron-right me-6 fs-9"></i>
+              <p class="fs-9">連絡我們</p>
+            </a>
+          </nav>
+        </div>
+      </div> 
+    </div>
+
+    
 <header class="position-relative bg-light py-6">    
     <div class="container" >
         <div class="row justify-content-center align-items-center">
@@ -595,3 +698,77 @@ current: index
     </section>
 
 </main>
+
+
+    <footer class="position-relative bg-secondary pt-12 pt-lg-14 pb-6">
+      <div class="bottom-trangle">
+        <div class="top-trangle-1 bg-secondary"></div>
+        <div class="top-trangle-2 bg-secondary"></div>
+        <div class="top-trangle-3 bg-secondary"></div>
+        <div class="top-trangle-4 bg-secondary"></div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="row justify-content-between align-items-center">
+              <div class="col-md-3 d-flex flex-column align-items-center">
+                <a class="footer-logo" href="./index.html"></a>
+                <div class="d-flex flex-row justify-content-lg-evenly mt-4  mb-4 mb-lg-0">
+                  <a class="mx-3 me-lg-0" href="#"><i class="fa-brands fa-twitter text-white-hover-primary"></i></a>
+                  <a class="mx-3 me-lg-0" href="#"><i class="fa-brands fa-facebook text-white-hover-primary"></i></a>
+                  <a class="mx-3 me-lg-0" href="#"><i class="fa-brands fa-instagram text-white-hover-primary"></i></a>
+                  <a class="mx-3 me-lg-0" href="#"><i class="fa-brands fa-youtube text-white-hover-primary"></i></a>
+                </div>
+              </div>
+              <div class="col-md-7">
+                <nav class="row row-cols-3 row-cols-xl-4  g-2">
+                  <a class="d-flex text-white-hover-primary " href="./facility.html">
+                    <i class="fa-solid fa-circle-chevron-right me-4 "></i>
+                    <p class="">設施/價格</p>
+                  </a>
+                  <a class="d-flex text-white-hover-primary " href="./rental.html">
+                    <i class="fa-solid fa-circle-chevron-right me-4 "></i>
+                    <p class="">出租</p>
+                  </a>
+                  <a class="d-flex text-white-hover-primary " href="./experience.html">
+                    <i class="fa-solid fa-circle-chevron-right me-4 "></i>
+                    <p class="">體驗</p>
+                  </a>
+                  <a class="d-flex text-white-hover-primary " href="./sports.html">
+                    <i class="fa-solid fa-circle-chevron-right me-4 "></i>
+                    <p class="">戶外運動</p>
+                  </a>
+                  <a class="d-flex text-white-hover-primary " href="./tourism.html">
+                    <i class="fa-solid fa-circle-chevron-right me-4 "></i>
+                    <p class="">周邊觀光</p>
+                  </a>
+                  <a class="d-flex text-white-hover-primary " href="./access.html">
+                    <i class="fa-solid fa-circle-chevron-right me-4 "></i>
+                    <p class="">交通</p>
+                  </a>
+                  <a class="d-flex text-white-hover-primary " href="./contact.html">
+                    <i class="fa-solid fa-circle-chevron-right me-4 "></i>
+                    <p class="">連絡我們</p>
+                  </a>
+                </nav>
+                
+              </div>
+            </div>            
+          </div>
+        </div>
+        <div class="text-center mt-6">
+          <p class="text-white fs-m">© Copright 2022 此網站僅練習使用，無商業用途</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+    <!-- AOS  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+
+</html>

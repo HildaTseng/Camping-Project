@@ -16875,7 +16875,7 @@ fieldset:disabled .btn {
   line-height: 1.5;
 }
 
-body {
+body, main {
   overflow-x: hidden;
 }
 
@@ -16980,6 +16980,10 @@ th {
       -ms-transform: translateY(-10px);
           transform: translateY(-10px);
   color: #248471;
+}
+
+.over-hidden {
+  overflow-x: hidden;
 }
 
 .btn {

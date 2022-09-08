@@ -17454,13 +17454,19 @@ th {
 }
 
 .offcanvas-top {
-  height: 60vh;
+  height: 50vh;
+  overflow-y: auto;
 }
 
 @media (min-width: 576px) {
   .offcanvas-top {
-    height: 40vh;
-    overflow-y: auto;
+    height: 60vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .offcanvas-top {
+    height: 35vh;
   }
 }
 

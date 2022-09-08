@@ -26,6 +26,7 @@
     height:60vh;
     @include media-breakpoint-up(sm) {
         height:40vh;
+        overflow-y: auto;
     }
 }
 .offcanvas-end {

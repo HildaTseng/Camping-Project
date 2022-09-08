@@ -23,10 +23,13 @@
     }
 }
 .offcanvas-top {
-    height:60vh;
+    height:50vh;  //手機直式
+    overflow-y: auto;
     @include media-breakpoint-up(sm) {
-        height:40vh;
-        overflow-y: auto;
+        height:60vh;    //手機橫式  
+    }
+    @include media-breakpoint-up(md)  {
+        height:35vh;       //平板直式
     }
 }
 .offcanvas-end {

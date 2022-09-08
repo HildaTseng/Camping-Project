@@ -17460,6 +17460,7 @@ th {
 @media (min-width: 576px) {
   .offcanvas-top {
     height: 40vh;
+    overflow-y: auto;
   }
 }
 
